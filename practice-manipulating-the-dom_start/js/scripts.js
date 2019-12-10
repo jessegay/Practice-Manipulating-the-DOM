@@ -40,3 +40,4 @@ const container = document.querySelector('.container');
 deleteButton.addEventListener('click', () => {
     container.removeChild(extra);
 });
+ 
