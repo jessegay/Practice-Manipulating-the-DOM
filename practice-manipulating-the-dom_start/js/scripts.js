@@ -15,15 +15,11 @@ const list = document.querySelector('ul');
 list.className = 'list';
 
 // 5: Create a new list item and add it to the <ul>
-//const surf = 'Surf';
 const item = document.createElement('li');
 item.innerHTML = '<input> Surf';
 list.appendChild(item);
 
 // 6: Change all <input> elements from text fields to checkboxes
-// for (var i = 0; i < list.length; i += 1) {
-//     list[i].type = 'checkbox';
-// }
 const inputs = document.querySelectorAll('input');
 for (var i = 0; i < inputs.length; i += 1) {
     inputs[i].type = 'checkbox';
